@@ -47,6 +47,6 @@ fn below_two() {
 
 #[test]
 fn big_prime() {
-    let big = 2 * 3 * 5 * 7 + 1;
+    let big = 541;
     assert!(is_aks_prime(big))
 }

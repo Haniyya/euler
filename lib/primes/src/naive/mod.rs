@@ -22,15 +22,15 @@ pub fn is_naive_prime(n: usize) -> bool {
 
 #[test]
 fn below_two(){
-    assert!(false == is_naive_prime(0));
-    assert!(false == is_naive_prime(1))
+    assert!(!is_naive_prime(0));
+    assert!(!is_naive_prime(1))
 }
 
 #[test]
 fn actual_prime(){
     let big = 2 * 3 * 5 * 7 * 11 + 1;
-    assert!(true == is_naive_prime(17));
-    assert!(true == is_naive_prime(big))
+    assert!(is_naive_prime(17));
+    assert!(is_naive_prime(big))
 }
 
 
