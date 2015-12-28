@@ -35,7 +35,8 @@ fn correct_num_of_coeffs(){
 
 #[test]
 fn small_prime() {
-    assert!(is_aks_prime(11))
+    assert!(is_aks_prime(11));
+    assert!(is_aks_prime(43));
 }
 
 #[test]
