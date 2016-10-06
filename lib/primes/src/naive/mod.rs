@@ -1,4 +1,4 @@
-pub fn is_naive_prime(n: usize) -> bool {
+pub fn is_naive_prime(n: u64) -> bool {
     match n {
         0 ... 1 => return false,
         2 ... 3 => return true,
@@ -32,6 +32,3 @@ fn actual_prime(){
     assert!(is_naive_prime(17));
     assert!(is_naive_prime(big))
 }
-
-
-

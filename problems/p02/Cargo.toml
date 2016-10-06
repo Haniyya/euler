@@ -1,0 +1,6 @@
+[package]
+name = "p02"
+version = "0.1.0"
+authors = ["Paul Martensen <paul.martensen@gmx.de>"]
+
+[dependencies]

@@ -1,0 +1,7 @@
+[package]
+name = "p03"
+version = "0.1.0"
+authors = ["Paul Martensen <paul.martensen@gmx.de>"]
+
+[dependencies]
+primes = { path = "../../lib/primes/" }
